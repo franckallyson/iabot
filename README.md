@@ -104,9 +104,9 @@ python testes.py
 ```
 .
 ├── chat/               # Frontend (React)
-├── modelo/             # Dados de treinamento e modelo salvo
+├── conversas/             # Dados de treinamento
 ├── robo.py             # Execução via terminal
-├── servico.py          # Backend (API REST)
+├── servico.py          # Backend
 ├── treinamento.py      # Treinamento do modelo
 ├── testes.py           # Testes automatizados
 ├── requirements.txt    # Dependências Python
