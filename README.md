@@ -117,7 +117,7 @@ python testes.py
 
 ## 🧠 Sobre o IABot
 
-O IABot foi criado com foco educacional, sendo uma ferramenta útil para estudantes, curiosos e entusiastas da inteligência artificial. Ele utiliza NLP (Processamento de Linguagem Natural) com spaCy e outras bibliotecas populares em Python.
+O IABot foi criado com foco educacional, sendo uma ferramenta útil para estudantes, curiosos e entusiastas da inteligência artificial. Ele utiliza Chatterbot, NLP (Processamento de Linguagem Natural) com spaCy e outras bibliotecas populares em Python.
 
 ---
 
