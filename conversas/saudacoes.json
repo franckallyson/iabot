@@ -1,0 +1,20 @@
+{
+  "conversas": [
+    {
+      "mensagens": ["oi", "olá", "oi, tudo bem?", "e aí", "tudo certo?", "oi, como vai?", "como vai"],
+      "resposta": "Olá! Sou o IABot, seu assistente virtual para dúvidas sobre Inteligência Artificial. Quer saber algo sobre IA, machine learning ou outros temas relacionados?"
+    },
+    {
+      "mensagens": ["bom dia", "oi, bom dia", "olá, bom dia"],
+      "resposta": "Bom dia! Sou o IABot. Posso te ajudar com perguntas sobre Inteligência Artificial. Como posso ajudar você hoje?"
+    },
+    {
+      "mensagens": ["boa tarde", "oi, boa tarde", "olá, boa tarde"],
+      "resposta": "Boa tarde! Aqui é o IABot. Fique à vontade para perguntar qualquer coisa sobre IA!"
+    },
+    {
+      "mensagens": ["boa noite", "oi, boa noite", "olá, boa noite"],
+      "resposta": "Boa noite! Sou o IABot, pronto para tirar suas dúvidas sobre Inteligência Artificial. O que você quer saber?"
+    }
+  ]
+}
