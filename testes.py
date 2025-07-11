@@ -11,7 +11,7 @@ class TesteSaudacoes(unittest.TestCase):
         self.assertTrue(self.inicializado)
 
     def testar_01_oi_ola(self):
-        saudacoes = ["oi", "olá", "oi, tudo bem?"]
+        saudacoes = ["oi", "olá", "oi, tudo bem?", "e aí", "tudo certo?", "oi, como vai?", "como vai"]
 
         for saudacao in saudacoes:
             print(f"testando a saudação: {saudacao}")
@@ -29,6 +29,36 @@ class TesteSaudacoes(unittest.TestCase):
             resposta, confianca = get_resposta(self.robo, saudacao)
             self.assertGreaterEqual(confianca, CONFIANCA_MINIMA)
             self.assertIn("Sou o IABot, seu assistente virtual para dúvidas sobre Inteligência Artificial", resposta)
+
+    def testar_03_bom_dia(self):
+        saudacoes = ["bom dia", "oi, bom dia", "olá, bom dia"]
+
+        for saudacao in saudacoes:
+            print(f"testando: {saudacao}")
+
+            resposta, confianca = get_resposta(self.robo, saudacao)
+            self.assertGreaterEqual(confianca, CONFIANCA_MINIMA)
+            self.assertIn("Bom dia! Sou o IABot. Posso te ajudar com perguntas sobre Inteligência Artificial. Como posso ajudar você hoje?", resposta)
+
+    def testar_04_boa_tarde(self):
+        saudacoes = ["boa tarde", "oi, boa tarde", "olá, boa tarde"]
+
+        for saudacao in saudacoes:
+            print(f"testando: {saudacao}")
+
+            resposta, confianca = get_resposta(self.robo, saudacao)
+            self.assertGreaterEqual(confianca, CONFIANCA_MINIMA)
+            self.assertIn("Boa tarde! Aqui é o IABot. Fique à vontade para perguntar qualquer coisa sobre IA!", resposta)
+    
+    def testar_05_boa_noite(self):
+        saudacoes = ["boa noite", "oi, boa noite", "olá, boa noite"]
+
+        for saudacao in saudacoes:
+            print(f"testando: {saudacao}")
+
+            resposta, confianca = get_resposta(self.robo, saudacao)
+            self.assertGreaterEqual(confianca, CONFIANCA_MINIMA)
+            self.assertIn("Boa noite! Sou o IABot, pronto para tirar suas dúvidas sobre Inteligência Artificial. O que você quer saber?", resposta)
 
 
 class TesteUtilidades(unittest.TestCase):

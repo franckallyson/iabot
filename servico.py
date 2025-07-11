@@ -30,7 +30,7 @@ def get_resposta(mensagem):
 
 if __name__ == "__main__":
     if inicializado:
-        servico.run(host="localhost", debug=True)
+        servico.run(host="0.0.0.0", debug=True)
     else:
         print("não foi possível inicializar o robô")
 

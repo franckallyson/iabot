@@ -85,7 +85,10 @@ npm install
 npm start
 ```
 
-> ⚠️ **Importante**: Verifique a porta em que o backend foi iniciado. Altere a constante `URL_IABOT` no arquivo `chat/index.js` se necessário.
+> ⚠️ **Importante**:
+> *  Verifique a porta em que o backend foi iniciado. Altere a constante `URL_IABOT` no arquivo `chat/index.js` se necessário.
+> * Se o front-end der algum erro de dependencia, faça a instalação do node packages com o ```npm install```. 
+
 
 ---
 

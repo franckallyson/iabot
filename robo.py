@@ -34,7 +34,7 @@ def executar_robo(robo):
         if confianca >= CONFIANCA_MINIMA:
             print(f"🤖 {resposta} [confiança: {confianca}]")
         else:
-            print(f"🤖 Ainda não sei responder esta pergunta. Você pode encontrar mais informações sobre o IFBA no site https://portal.ifba.edu.br/conquista [confiança: {confianca}]")
+            print(f"🤖 Ainda não sei responder esta pergunta. Você tem alguma outra dúvida sobre IA? Para mais informações consulte: https://brasilescola.uol.com.br/informatica/inteligencia-artificial.htm [confiança: {confianca}]")
 
 
 if __name__ == "__main__":

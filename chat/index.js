@@ -24,7 +24,7 @@ getResposta = (mensagem) => {
       if (dados.confianca >= CONFIANCA_MINIMA) {
         io.emit('chat message', "🤖 " + dados.resposta);
       } else {
-        io.emit('chat message', "🤖 Ainda não sei responder esta pergunta. Você pode encontrar mais informações sobre o IFBA no site https://portal.ifba.edu.br/conquista");
+        io.emit('chat message', "🤖 Ainda não sei responder esta pergunta. Você tem alguma outra dúvida sobre IA? Para mais informações consulte: https://brasilescola.uol.com.br/informatica/inteligencia-artificial.htm");
       }
       console.log(dados);
     });
